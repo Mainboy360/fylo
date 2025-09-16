@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+}
+
+.fylo-navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 70px 80px 50px 80px;
+}
+
+img[src*="logo.svg"] {
+    width: 100px;
+    height: 100%;
+}
+
+.fylo-links {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-image-description {
+    margin-top: 70px;
+    text-align: center;
+    padding: 20px 400px 20px 400px;
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.hero-image-description > p {
+    margin-top: 6px;
+    padding: 20px 100px 20px 100px;
+    line-height: 1.6;
+}
+
+button {
+    padding: 15px 60px;
+    border-radius: 30px;
+    border-style: none;
+    background-color:  hsl(198, 60%, 50%);
+    color: white;
+}
