@@ -161,4 +161,37 @@ button {
 }
 
 
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px;
+    text-align: left;
+    line-height: 1.5;
+}
 
+
+
+img[src*="images/profile-1.jpg"],
+img[src*="images/profile-2.jpg"],
+img[src*="images/profile-3.jpg"] {
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+}
+
+
+.right-testifyer-name-and-image,
+.middle-testifyer-name-and-image,
+.last-testifyer-name-and-image {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.name {
+    line-height: 1.3;
+}
