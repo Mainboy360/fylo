@@ -65,7 +65,7 @@ ul {
     line-height: 1.6;
 }
 
-button {
+.hero-image-description button {
     padding: 15px 60px;
     border-radius: 30px;
     border-style: none;
@@ -169,6 +169,7 @@ button {
     padding: 100px;
     text-align: left;
     line-height: 1.5;
+    background-color:  hsl(218, 28%, 13%);
 }
 
 
@@ -192,6 +193,55 @@ img[src*="images/profile-3.jpg"] {
     gap: 12px;
 }
 
+
 .name {
     line-height: 1.3;
+}
+
+.right-testimonial,
+.middle-testimonial,
+.last-testimonial  {
+    border: 2px solid hsl(219, 30%, 18%);
+    padding: 40px 30px;
+    background-color:  hsl(219, 30%, 18%);
+}
+
+
+.get-early-access-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 360px 100px 360px;
+    padding: 100px 150px 55px 150px;
+    border: 2px solid white;
+    gap: 50px;
+    background-color:  hsl(218, 28%, 13%);
+    line-height: 1.8;
+}
+
+.email-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="email"] {
+    padding: 18px 130px;
+    border-radius: 30px;
+}
+
+.email-signup button {
+    padding: 18px 30px;
+    border-radius: 30px;
+    border-style: none;
+    background-color:  hsl(198, 60%, 50%);
+    color: white;
+}
+
+.get-early-access-background {
+    background-color:  hsl(218, 28%, 13%);
+    padding: 20px;
 }
