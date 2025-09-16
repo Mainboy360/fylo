@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: hsl(218, 28%, 13%);
+    background-color: hsl(219, 38%, 18%);
     color: white;
 }
 
@@ -42,17 +42,20 @@ ul {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 50px;
+
 }
 
 .hero-image-description {
     margin-top: 70px;
     text-align: center;
     padding: 20px 400px 20px 400px;
+   /*
     background-image: url("images/bg-curvy-desktop.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    */
 }
 
 .hero-image-description > p {
@@ -73,7 +76,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 90px 150px 0px 150px;
+
 }
 
 .fylo-access-and-security {
@@ -81,10 +86,7 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
-
-
 
 
 .access-your-files-anywhere-container {
@@ -109,3 +111,27 @@ button {
 .security-header-and-para-container {
     margin-top: 20px;
 }
+
+
+/* styling for realtime and store container*/
+
+.real-time-and-store-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    padding: 100px 50px 50px 50px;
+}
+
+.real-time-collaboration-header-and-para-container {
+    padding: 15px 50px 20px 50px;
+    line-height: 1.6;
+}
+
+
+.store-any-type-header-and-para-container {
+    padding: 15px 100px 20px 100px;
+    line-height: 1.6;
+}
+
