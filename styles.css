@@ -68,3 +68,44 @@ button {
     background-color:  hsl(198, 60%, 50%);
     color: white;
 }
+
+.fylo-purpose-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 150px 0px 150px;
+}
+
+.fylo-access-and-security {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+
+.access-your-files-anywhere-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 100px 20px 100px;
+    line-height: 1.6;
+}
+
+.security-container {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 100px 20px 100px;
+    line-height: 1.6;
+}
+
+.access-your-file-header-and-para-container,
+.security-header-and-para-container {
+    margin-top: 20px;
+}
