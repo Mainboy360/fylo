@@ -497,12 +497,13 @@
 
     .stay-productive-header-and-para {
         padding: 10px;
+        margin-top: 30px;
         text-align: left;
 
     }
 
     .stay-productive-header-and-para > h1 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         padding-right: 0px;
         padding-left: 12px;
         text-align: center;
